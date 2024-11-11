@@ -14,10 +14,13 @@ const CardAndCart = () => {
   }, []);
 
   const handleWantToCook = recipes =>{
-    for(const element of cart){
-        if(element.recipe_id===recipes.recipe_id)
-            setCart([...cart, recipes]);
-    } 
+            const recipesExist= cart.some(e=>e.recipe_id ===recipes.recipe_id)
+            if(recipesExist){
+                alert('already added')
+            }else{
+                setCart([...cart.recipes])
+            }
+
   }
 
   const handlePreparing = recipes=>{

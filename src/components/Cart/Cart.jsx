@@ -1,7 +1,6 @@
 import React from "react";
 
 const Cart = ({ cart,handlePreparing, currentlyCooking }) => {
-  console.log(cart);
   return (
     <div>
         <div>
