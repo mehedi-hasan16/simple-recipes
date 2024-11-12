@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Cart from '../Cart/Cart';
+import toast, { Toaster } from 'react-hot-toast';
 
 const CardAndCart = () => {
     const [data, setData] = useState([]);
@@ -16,7 +17,7 @@ const CardAndCart = () => {
   const handleWantToCook = recipes =>{
             const recipesExist= cart.some(e=>e.recipe_id ===recipes.recipe_id);
            if(recipesExist){
-           alert('exists');
+           toast.error("Already added in the cart")
            }else{
             setCart([...cart,recipes])
            }
@@ -37,6 +38,7 @@ const CardAndCart = () => {
             }
 
             <Cart cart={cart} handlePreparing={handlePreparing} currentlyCooking={currentlyCooking}></Cart>
+            <Toaster />
         </div>
     );
 };
