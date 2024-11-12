@@ -1,6 +1,6 @@
     [
       {
-        "recipe_image": "chicken_teriyaki.jpg",
+        "recipe_image": "https://ts1.cn.mm.bing.net/th/id/R-C.159b23806a8eb666695ae6dd272b12ca?rik=ySFPGekIBZmLnQ&riu=http%3a%2f%2fsudachirecipes.com%2fwp-content%2fuploads%2f2020%2f03%2fteriyaki-chicken-thumbnail.jpg&ehk=vHLaczsL9PNz4jYjnIiLGl5j4pkq8cHYM2I%2fGn5AGbk%3d&risl=&pid=ImgRaw&r=0",
         "recipe_id": "R001",
         "recipe_name": "Chicken Teriyaki",
         "short_description": "A classic Japanese dish featuring glazed, tender chicken.",
@@ -9,7 +9,7 @@
         "calories": "350"
       },
       {
-        "recipe_image": "pasta_primavera.jpg",
+        "recipe_image": "https://www.cookingclassy.com/wp-content/uploads/2018/09/pasta-primavera-2.jpg",
         "recipe_id": "R002",
         "recipe_name": "Pasta Primavera",
         "short_description": "A refreshing pasta dish with mixed vegetables and light seasoning.",
@@ -18,7 +18,7 @@
         "calories": "290"
       },
       {
-        "recipe_image": "basil_pesto.jpg",
+        "recipe_image": "https://ts1.cn.mm.bing.net/th/id/R-C.1e75d32dec650f82f4d680686b703230?rik=alTy8SH2%2fQkI6Q&riu=http%3a%2f%2fwww.amusingmaria.com%2fwp-content%2fuploads%2f2013%2f02%2fscaledbasilpesto-700x500.jpg&ehk=FFsa%2fX4cl4l0GF5YuJyWppzrnsdPVUflyPAMv3Vn1xw%3d&risl=&pid=ImgRaw&r=0",
         "recipe_id": "R003",
         "recipe_name": "Basil Pesto",
         "short_description": "A rich, flavorful Italian pesto sauce made with fresh basil.",
@@ -27,7 +27,7 @@
         "calories": "220"
       },
       {
-        "recipe_image": "mushroom_risotto.jpg",
+        "recipe_image": "https://tse3-mm.cn.bing.net/th/id/OIP-C._e89u-9JA_n2_fma2XjDzgHaHa?rs=1&pid=ImgDetMain",
         "recipe_id": "R004",
         "recipe_name": "Mushroom Risotto",
         "short_description": "A creamy Italian rice dish with fresh mushrooms and Parmesan.",
@@ -36,7 +36,7 @@
         "calories": "370"
       },
       {
-        "recipe_image": "caesar_salad.jpg",
+        "recipe_image": "https://tse3-mm.cn.bing.net/th/id/OIP-C.V3PBpJ34-OZB9aEeGM9cWQHaLH?rs=1&pid=ImgDetMain",
         "recipe_id": "R005",
         "recipe_name": "Caesar Salad",
         "short_description": "A classic Caesar salad with crunchy croutons and creamy dressing.",
@@ -45,7 +45,7 @@
         "calories": "200"
       },
       {
-        "recipe_image": "banana_pancakes.jpg",
+        "recipe_image": "https://tse3-mm.cn.bing.net/th/id/OIP-C.USyGBKjSp6eJnf-CxbghkQAAAA?rs=1&pid=ImgDetMain",
         "recipe_id": "R006",
         "recipe_name": "Banana Pancakes",
         "short_description": "Fluffy and delicious pancakes made with ripe bananas.",

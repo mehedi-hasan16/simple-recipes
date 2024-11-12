@@ -32,13 +32,17 @@ const CardAndCart = () => {
     console.log(recipes);
   }
     return (
-        <div>
+        <div className='flex gap-10 mt-10'>
+            <div className='grid grid-cols-2 gap-10'>
             {
                 data.map(element=><Card key={element.recipe_id} element={element}handleWantToCook={handleWantToCook}></Card>)
             }
-
+        </div>
+        
+        <div>
             <Cart cart={cart} handlePreparing={handlePreparing} currentlyCooking={currentlyCooking}></Cart>
             <Toaster />
+        </div>
         </div>
     );
 };

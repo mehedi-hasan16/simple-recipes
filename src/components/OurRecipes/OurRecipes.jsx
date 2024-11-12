@@ -2,9 +2,9 @@ import CardAndCart from "../CardAndCart/CardAndCart";
 
 const OurRecipes = () => {
   return (
-    <div>
+    <div className="my-10">
       <div className="text-center">
-        <h1 className="text-5xl font-semibold">Our Recipes</h1>
+        <h1 className="text-4xl font-semibold my-5">Our Recipes</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id ullam
           suscipit officiis. Iste porro consequatur voluptates qui neque

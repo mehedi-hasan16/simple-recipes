@@ -6,11 +6,11 @@ import OurRecipes from "./components/OurRecipes/OurRecipes"
 function App() {
 
   return (
-    <>
-    <NavBar></NavBar>
+    <div className="px-40">
+      <NavBar></NavBar>
       <Banner></Banner>
       <OurRecipes></OurRecipes>
-    </>
+    </div>
   )
 }
 

@@ -2,9 +2,10 @@ import React from "react";
 
 const Cart = ({ cart, handlePreparing, currentlyCooking }) => {
   return (
-    <div>
+    <div className="border-2 p-5 rounded-xl">
       <div>
-        Want to cook: {cart.length}
+        <p className="font-bold text-xl text-center">Want to cook: {cart.length} </p>
+        <div className="divider mt-1"></div>
         <div className="overflow-x-auto">
           <table className="table">
             {/* head */}
@@ -26,7 +27,7 @@ const Cart = ({ cart, handlePreparing, currentlyCooking }) => {
                   <td>{e.calories} Calories</td>
                   <button
                     onClick={() => handlePreparing(e)}
-                    className="btn btn-success rounded-full"
+                    className="btn btn-sm bg-green-400 rounded-full"
                   >
                     Preparing
                   </button>
@@ -38,7 +39,8 @@ const Cart = ({ cart, handlePreparing, currentlyCooking }) => {
       </div>
 
       <div>
-        <h1>Currently Cooking:</h1>
+        <p className="text-xl font-bold text-center mt-5">Currently Cooking: {currentlyCooking.length}</p>
+        <div className="divider mt-1"></div>
         <div className="overflow-x-auto">
           <table className="table">
             {/* head */}
