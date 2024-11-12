@@ -11,7 +11,9 @@ const OurRecipes = () => {
           eligendi inventore.
         </p>
       </div>
+      <div className="flex justify-center">
       <CardAndCart></CardAndCart>
+      </div>
     </div>
   );
 };
