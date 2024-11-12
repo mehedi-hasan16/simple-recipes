@@ -14,13 +14,13 @@ const CardAndCart = () => {
   }, []);
 
   const handleWantToCook = recipes =>{
-            const recipesExist= cart.some(e=>e.recipe_id ===recipes.recipe_id)
-            if(recipesExist){
-                alert('already added')
-            }else{
-                setCart([...cart.recipes])
-            }
-
+            const recipesExist= cart.some(e=>e.recipe_id ===recipes.recipe_id);
+           if(recipesExist){
+           alert('exists');
+           }else{
+            setCart([...cart,recipes])
+           }
+            
   }
 
   const handlePreparing = recipes=>{
@@ -33,7 +33,7 @@ const CardAndCart = () => {
     return (
         <div>
             {
-                data.map(element=><Card key={element.id} element={element}handleWantToCook={handleWantToCook}></Card>)
+                data.map(element=><Card key={element.recipe_id} element={element}handleWantToCook={handleWantToCook}></Card>)
             }
 
             <Cart cart={cart} handlePreparing={handlePreparing} currentlyCooking={currentlyCooking}></Cart>

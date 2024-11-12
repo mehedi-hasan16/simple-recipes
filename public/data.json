@@ -5,8 +5,8 @@
         "recipe_name": "Chicken Teriyaki",
         "short_description": "A classic Japanese dish featuring glazed, tender chicken.",
         "ingredients": ["500 g chicken breast", "120 ml soy sauce", "3 tbsp sugar", "2 tbsp mirin", "2 tbsp sake"],
-        "preparing_time": "25 min",
-        "calories": "350 calories"
+        "preparing_time": "25",
+        "calories": "350"
       },
       {
         "recipe_image": "pasta_primavera.jpg",
@@ -14,8 +14,8 @@
         "recipe_name": "Pasta Primavera",
         "short_description": "A refreshing pasta dish with mixed vegetables and light seasoning.",
         "ingredients": ["200 g pasta", "1 zucchini", "1 bell pepper", "100 g cherry tomatoes", "2 tbsp olive oil"],
-        "preparing_time": "20 min",
-        "calories": "290 calories"
+        "preparing_time": "20",
+        "calories": "290"
       },
       {
         "recipe_image": "basil_pesto.jpg",
@@ -23,8 +23,8 @@
         "recipe_name": "Basil Pesto",
         "short_description": "A rich, flavorful Italian pesto sauce made with fresh basil.",
         "ingredients": ["100 g basil leaves", "50 g pine nuts", "100 g Parmesan cheese", "2 cloves garlic", "120 ml olive oil"],
-        "preparing_time": "10 min",
-        "calories": "220 calories"
+        "preparing_time": "10",
+        "calories": "220"
       },
       {
         "recipe_image": "mushroom_risotto.jpg",
@@ -32,8 +32,8 @@
         "recipe_name": "Mushroom Risotto",
         "short_description": "A creamy Italian rice dish with fresh mushrooms and Parmesan.",
         "ingredients": ["200 g Arborio rice", "400 g mushrooms", "1 onion", "100 ml white wine", "500 ml chicken broth"],
-        "preparing_time": "35 min",
-        "calories": "370 calories"
+        "preparing_time": "35",
+        "calories": "370"
       },
       {
         "recipe_image": "caesar_salad.jpg",
@@ -41,8 +41,8 @@
         "recipe_name": "Caesar Salad",
         "short_description": "A classic Caesar salad with crunchy croutons and creamy dressing.",
         "ingredients": ["1 romaine lettuce", "50 g Parmesan cheese", "100 g croutons", "100 ml Caesar dressing", "1 grilled chicken breast"],
-        "preparing_time": "15 min",
-        "calories": "200 calories"
+        "preparing_time": "15",
+        "calories": "200"
       },
       {
         "recipe_image": "banana_pancakes.jpg",
@@ -50,8 +50,8 @@
         "recipe_name": "Banana Pancakes",
         "short_description": "Fluffy and delicious pancakes made with ripe bananas.",
         "ingredients": ["1 banana", "100 g flour", "200 ml milk", "1 egg", "1 tbsp sugar"],
-        "preparing_time": "20 min",
-        "calories": "250 calories"
+        "preparing_time": "20",
+        "calories": "250"
       }
     ]
   

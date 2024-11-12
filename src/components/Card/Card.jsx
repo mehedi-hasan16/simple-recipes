@@ -22,8 +22,8 @@ const Card = ({element,handleWantToCook}) => {
             }
         </div>
         <div className='flex'>
-            <p>{preparing_time}</p>
-            <p>{calories}</p>
+            <p>{preparing_time} Min</p>
+            <p>{calories} Calories</p>
         </div>
     <div className="card-actions justify-end">
       <button onClick={()=>handleWantToCook(element)} className='btn btn-success rounded-full'>want to cook</button>
